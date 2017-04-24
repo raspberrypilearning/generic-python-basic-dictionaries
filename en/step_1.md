@@ -14,10 +14,12 @@ band = {'john' : 'rhythm guitar', 'paul' : 'base guitar', 'george' : 'lead guita
 The dictionary has a name, in this case `band`, and the data within it is surrounded by curly brackets (`{}`). Within the dictionary are the key : value pairs. In this case the **keys** are the names of the band members. The **values** are the names of the instruments they played. Keys and values have colons between them (`:`), and each pair is separated by a comma (`,`). You can also write dictionaries so that each key : value pair is written on a new line.
 
 ~~~python
-band = {'john' : 'rhythm guitar',
-        'paul' : 'base guitar',
-		'george' : 'lead guitar',
-		'ringo' : 'base guitar'}
+band = {
+    'john' : 'rhythm guitar',
+    'paul' : 'base guitar',
+	'george' : 'lead guitar',
+    'ringo' : 'base guitar'
+	}
 ~~~
 
 1. Open IDLE and in a new file, have a go at creating your own dictionary. You can use the one above or your own if you like. When you're done, save and run the code and then switch over to the shell to have a look at the result, by typing the name of your dictionary.
