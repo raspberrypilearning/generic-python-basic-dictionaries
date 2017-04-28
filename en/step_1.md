@@ -1,4 +1,4 @@
-# Basic Python Dictionaries
+### Basic Python Dictionaries
 
 A dictionary is a type of data structure. A dictionary contains a series of key / value pairs. Here is a very simple example of a dictionary in Python
 
@@ -35,7 +35,7 @@ band = {
 	~~~
 1. Dictionaries can store all types of data. So you can use a dictionary to store numbers, strings, variables, lists or even other dictionaries.
 
-### Adding and removing key:value pairs
+#### Adding and removing key:value pairs
 
 You can add and remove items from a dictionary quite easily.
 
@@ -46,7 +46,7 @@ del band['paul']
 band['yoko'] = 'vocals'
 ~~~
 
-### Iterating over a dictionary
+#### Iterating over a dictionary
 Like any data structure, you can iterate over dicitonaries. Remember though, the order can be unpredicatable. If you simply iterate over a dicitonary with a `for` loop, then you will only be iterating over the keys.
 
 ~~~python
