@@ -20,18 +20,18 @@ band = {
 	}
 ~~~
 
-1. Open IDLE and in a new file, have a go at creating your own dictionary. You can use the one above or your own if you like. When you're done, save and run the code and then switch over to the shell to have a look at the result, by typing the name of your dictionary.
+- Open IDLE and in a new file, have a go at creating your own dictionary. You can use the one above or your own if you like. When you're done, save and run the code and then switch over to the shell to have a look at the result, by typing the name of your dictionary.
 
 	![unorderd dictionaries](images/unordered-dicts.gif)
 
-1. You'll probably notice that the key : value pairs are no longer in the order that you typed them. This is because Python dictionaries are **unordered**, so you can't rely on any particular data being in any specific position.
+- You'll probably notice that the key : value pairs are no longer in the order that you typed them. This is because Python dictionaries are **unordered**, so you can't rely on any particular data being in any specific position.
 
-1. To look up a particular value in a dictionary you can use the key. So for instance, if you wanted to find out what instrument `ringo` plays, you could type:
+- To look up a particular value in a dictionary you can use the key. So for instance, if you wanted to find out what instrument `ringo` plays, you could type:
 
 	~~~python
 	band['ringo']
 	~~~
-1. Dictionaries can store all types of data. So you can use a dictionary to store numbers, strings, variables, lists or even other dictionaries.
+- Dictionaries can store all types of data. So you can use a dictionary to store numbers, strings, variables, lists or even other dictionaries.
 
 #### Adding and removing key:value pairs
 
