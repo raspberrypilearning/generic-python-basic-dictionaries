@@ -1,5 +1,3 @@
-### Basic Python Dictionaries
-
 A dictionary is a type of data structure. A dictionary contains a series of key / value pairs. Here is a very simple example of a dictionary in Python
 
 *[data structure]: A method of storing and organising data.

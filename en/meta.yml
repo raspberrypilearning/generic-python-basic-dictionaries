@@ -1,4 +1,4 @@
-title: python-basic-dictionaries
+title: Dictionaries in Python
 hero_image: images/banner.png
 subtitle: python-basic-dictionaries subtitle
 description: python-basic-dictionaries description
@@ -6,5 +6,4 @@ original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
 theme: cc-prototype
 published: false
 steps:
-  - title: Step one
-    duration: 60
+  - title: Dictionaries in Python
