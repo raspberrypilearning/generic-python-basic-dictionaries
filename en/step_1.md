@@ -10,7 +10,7 @@ The dictionary has a name, in this case `band`, and the data in it is surrounded
 band = {
     'john' : 'rhythm guitar',
     'paul' : 'bass guitar',
-	'george' : 'lead guitar',
+	  'george' : 'lead guitar',
     'ringo' : 'bass guitar'
 	}
 ```
