@@ -12,7 +12,7 @@ band = {
     'paul' : 'bass guitar',
     'george' : 'lead guitar',
     'ringo' : 'bass guitar'
-	}
+    }
 ```
 
 - Open IDLE, create a new file, and have a go at creating your own dictionary. You can use the one above or your own if you like. When you're done, save and run the code. Then switch over to the shell to have a look at the result by typing the name of your dictionary.
