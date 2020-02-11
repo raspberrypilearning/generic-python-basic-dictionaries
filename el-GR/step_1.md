@@ -1,28 +1,28 @@
-A dictionary is a type of data structure in Python. It contains a series of key : value pairs. Here is a very simple example:
+Ένα λεξικό είναι ένας τύπος δομής δεδομένων σε Python. Περιέχει μια σειρά από ζεύγη κλειδιών : τιμών. Εδώ είναι ένα πολύ απλό παράδειγμα:
 
 ```python
-band = {'john' : 'rhythm guitar', 'paul' : 'bass guitar', 'george' : 'lead guitar', 'ringo' : 'bass guitar'}
+band = {'john' : 'ρυθμική κιθάρα', 'paul' : 'μπάσο', 'george' : 'σόλο κιθάρα', 'ringo' : 'μπάσο'}
 ```
-The dictionary has a name, in this case `band`, and the data in it is surrounded by curly brackets (`{}`). Within the dictionary are the key : value pairs. In this case the **keys** are the names of the band members. The **values** are the names of the instruments they play. Keys and values have colons between them (`:`), and each pair is separated by a comma (`,`). You can also write dictionaries so that each key : value pair is written on a new line.
+Το λεξικό έχει ένα όνομα, στη συγκεκριμένη περίπτωση `μπάντα`, και τα δεδομένα σε αυτό περιβάλλονται από άγκιστρα (`{}`). Στο λεξικό υπάρχουν τα ζεύγη κλειδιών : τιμών. Σε αυτήν την περίπτωση τα **κλειδιά** είναι τα ονόματα των μελών της μπάντας. Οι **τιμές** είναι τα ονόματα των οργάνων που παίζουν. Τα κλειδιά και οι τιμές έχουν μεταξύ τους μία άνω κάτω τελεία (`:`), και κάθε ζεύγος διαχωρίζεται με κόμμα (`,`). Μπορείς επίσης να γράψεις λεξικά ώστε το κάθε ζευγάρι κλειδιού: τιμής να γράφεται σε μια νέα γραμμή.
 
 ```python
 band = {
-    'john' : 'rhythm guitar',
-    'paul' : 'bass guitar',
-    'george' : 'lead guitar',
-    'ringo' : 'bass guitar'
+    'john' : 'ρυθμική κιθάρα',
+    'paul' : 'μπάσο',
+    'george' : 'σόλο κιθάρα',
+    'ringo' : 'μπάσο'
     }
 ```
 
-- Open IDLE, create a new file, and have a go at creating your own dictionary. You can use the one above or your own if you like. When you're done, save and run the code. Then switch over to the shell to have a look at the result by typing the name of your dictionary.
+- Άνοιξε το IDLE, δημιούργησε ένα νέο αρχείο και προχώρησε στη δημιουργία του δικού σου λεξικού. Μπορείτε να χρησιμοποιήσεις το παραπάνω ή το δικό σου αν προτιμάς. Όταν τελειώσεις, αποθήκευσε και εκτέλεσε τον κώδικα. Στη συνέχεια πήγαινε στο περιβάλλον της python και δες το αποτέλεσμα πληκτρολογώντας το όνομα του λεξικού σου.
 
-    ![unordered dictionaries](images/unordered-dicts.gif)
+    ![μη ταξινομημένα λεξικά](images/unordered-dicts.gif)
 
-- You'll probably notice that the key : value pairs are no longer in the order that you typed them. This is because Python dictionaries are **unordered**, so you can't rely on any particular entry being in any specific position.
+- Ίσως θα παρατηρήσεις ότι τα ζεύγη κλειδιών : τιμών δεν είναι πλέον με τη σειρά που τα πληκτρολόγησες. Αυτό οφείλεται στο γεγονός ότι τα στοιχεία ενός λεξικού στην Python δεν είναι **σε καθορισμένη σειρά**, επομένως δεν μπορείς να υπολογίζεις ότι θα εντοπίσεις κάποια συγκεκριμένη καταχώρηση σε κάποια συγκεκριμένη θέση.
 
-- To look up a particular value in a dictionary you can use its key. So for instance, if you wanted to find out what instrument `ringo` plays, you could type:
+- Για να αναζητήσεις μια συγκεκριμένη τιμή σε ένα λεξικό μπορείς να χρησιμοποιήσεις το κλειδί του. Έτσι, για παράδειγμα, εάν θέλεις να μάθεις ποιο όργανο παίζει ο `ringo`, μπορείς να πληκτρολογήσεις:
 
     ```python
     band['ringo']
     ```
-- Dictionaries can store all types of data. So you can use them to store numbers, strings, variables, lists or even other dictionaries.
+- Τα λεξικά μπορούν να αποθηκεύσουν όλους τους τύπους δεδομένων. Έτσι μπορείς να τα χρησιμοποιήσεις για να αποθηκεύσεις αριθμούς, συμβολοσειρές, μεταβλητές, λίστες ή ακόμα και άλλα λεξικά.
